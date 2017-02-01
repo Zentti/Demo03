@@ -46,7 +46,7 @@ namespace Teht03
             Volume += 1;
         }
 
-        public void LoverVol()
+        public void LowerVol()
         {
             Volume -= 1;
         }

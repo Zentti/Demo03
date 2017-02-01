@@ -27,6 +27,12 @@ namespace Teht03
             Console.WriteLine("Telkku1 tiedot: ");
             telkku1.PrintData();
             Console.WriteLine();
+            telkku1.LowerVol();
+            telkku1.LowerVol();
+            telkku1.LowerVol();
+            Console.WriteLine("Telkku1 tiedot: ");
+            telkku1.PrintData();
+            Console.WriteLine();
 
             telkku1.PowerOff();
             Console.WriteLine("Telkku1 tiedot: ");
