@@ -29,6 +29,16 @@ namespace Teht05
             Console.WriteLine("Koulu: " + School);
             Console.WriteLine();
         }
+
+        public void DrinkBeer()
+        {
+            Motivation -= 1;
+        }
+
+        public void Study()
+        {
+            Motivation += 1;
+        }
         public void SetFirstName(string value)
         {
             FirstName = value;

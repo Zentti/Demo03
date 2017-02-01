@@ -19,7 +19,6 @@ namespace Teht05
             oppilas1.SetMotivation(5);
             oppilas1.SetSchool("Elämäm kova korkia koulu");
 
-
             Student oppilas2 = new Student();
             oppilas2.SetFirstName("Mara");
             oppilas2.SetLastName("Tekijä");
@@ -54,6 +53,15 @@ namespace Teht05
             {
                 dude.PrintData();
             }
+
+
+            oppilas1.DrinkBeer();
+            oppilas4.Study();
+
+            Console.WriteLine();
+
+            oppilas1.PrintData();
+            oppilas4.PrintData();
         }
     }
 }
